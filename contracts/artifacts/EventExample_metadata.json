@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "TokensSent",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EventExample.sol": "EventExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EventExample.sol": {
+			"keccak256": "0x1727f06a3315d14773b579ce9503d82f9f15e2156ea223cf604f7cf77023227a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://66d4764d6e5bc6c95ef54d300ff1aacbfbd7b4c12089b7724fe3992038e6be49",
+				"dweb:/ipfs/QmaPf5c7DnUbcNdMJSzZkQkug9boxYmWdivq1CVdgsbY3n"
+			]
+		},
+		"contracts/Owned.sol": {
+			"keccak256": "0x0d01e488d2b6c0d053197d35939c1d01609a7d6655cdd9319af97ee8ad9586a8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e30be9e9ab498a0b1e19467a78a44208e504b743012d44f13b8aaacbbbf9c9a6",
+				"dweb:/ipfs/QmfS1T26GdXQmCLbemH23TK3C1pMzShzgL7pUwDXBvnoWd"
+			]
+		}
+	},
+	"version": 1
+}
